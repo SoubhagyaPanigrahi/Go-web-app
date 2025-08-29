@@ -8,7 +8,7 @@ image:
   repository: soubhagya12/go-web-app
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "17325503478"
+  tag: "17326922470"
 
 ingress:
   enabled: false
