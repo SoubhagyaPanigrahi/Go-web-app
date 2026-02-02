@@ -8,7 +8,7 @@ image:
   repository: soubhagya12/montu-go-web
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "21594842155"
+  tag: "21596727928"
 
 ingress:
   enabled: false
