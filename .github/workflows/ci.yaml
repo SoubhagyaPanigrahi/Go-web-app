@@ -27,7 +27,7 @@ jobs:
         go-version: 1.22.5
 
     - name: Build
-      run: go build -o go-web-app
+      run: go build -o montu-go-web
 
     - name: Test
       run: go test ./...
@@ -96,8 +96,8 @@ jobs:
 
     - name: Commit and push changes
       run: |
-        git config --global user.email "abhishek@gmail.com"
-        git config --global user.name "Abhishek Veeramalla"
+        git config --global user.email "soubhagya123@gmail.com"
+        git config --global user.name "Soubhagya Panigrahi"
         git add helm/go-web-app-chart/values.yaml
         git commit -m "Update tag in Helm chart"
         git push

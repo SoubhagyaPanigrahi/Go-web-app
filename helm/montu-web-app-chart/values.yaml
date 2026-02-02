@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: soubhagya12/go-web-app
+  repository: soubhagya12/montu-go-web
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "17326922470"
+  tag: latest
 
 ingress:
   enabled: false

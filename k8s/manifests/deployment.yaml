@@ -2,21 +2,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: go-web-app
+  name: montu-go-web
   labels:
-    app: go-web-app
+    app: montu-go-web
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: go-web-app
+      app: montu-go-web
   template:
     metadata:
       labels:
-        app: go-web-app
+        app: montu-go-web
     spec:
       containers:
-      - name: go-web-app
-        image: soubhagya12/go-web-app:v1
+      - name: montu-go-web
+        image: soubhagya12/montu-web-app
         ports:
         - containerPort: 8080
